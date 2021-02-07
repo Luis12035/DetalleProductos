@@ -1,170 +1,260 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Super Shake</title>
     <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
-        </div>
-      </div>
+</head>
 
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-            <p>Once you've exhausted the fun in this document, you should check out:</p>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-              </div>
-              <div class="large-4 medium-4 medium-pull-2 cell">
-                <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<body>
+    <header class="top-bar">
+        <nav class="top-bar-left">
+            <ul class="menu" aria-label="Navegación del Comercio">
+                <li class="menu-text" style="color: black;">Super Shake</li>
+                <li><a href style="color: white;"> <strong>Productos</strong> </a></li>
+                <li><a href style="color: white;"> <strong>Categorías</strong> </a></li>
+            </ul>
+        </nav>
+        <nav class="top-bar-right">
+            <ul class="menu" aria-label="Nagevagación de tu Cuenta">
+                <li><a href style="color: white;">Crear Cuenta</a></li>
+                <li><a href style="color: white;">Iniciar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="orbit" data-orbit role="region">
+            <ul class="orbit-container">
+                <button class="orbit-previous" style="color: black"><span class="show-for-sr">Anterior</span>&#9664;</button>
+                <button class="orbit-next" style="color: black;"><span class="show-for-sr">Siguiente</span>&#9654;</button>
+                <li class="orbit-slide is-active text-center">
+                    <figure class="orbit-figure">
+                        <picture>
+                            <source srcset="https://cdn.discordapp.com/attachments/807823691974180895/807829523529072720/l-chocolate.jpg" media="(min-width:1200px)" />
+                            <source srcset="https://cdn.discordapp.com/attachments/807823691974180895/807829625165316096/m-chocolate.jpg" media="(min-width:700px)" />
+                            <img src="https://cdn.discordapp.com/attachments/807823691974180895/807829701779259412/s-chocolate.jpg" alt="PlaceHolder Img 1" />
+                        </picture>
+                        <figcaption class="orbit-caption">Chocoloco</figcaption>
+                    </figure>
+                </li>
+                <li class="orbit-slide">
+                    <figure class="orbit-figure text-center">
+                        <picture>
+                            <source srcset="https://cdn.discordapp.com/attachments/807823691974180895/807829527811063817/l-strawberry.jpg" media="(min-width:1200px)" />
+                            <source srcset="https://cdn.discordapp.com/attachments/807823691974180895/807829627891351552/m-strawberry.jpg" media="(min-width:700px)" />
+                            <img src="https://cdn.discordapp.com/attachments/807823691974180895/807829703799996446/s-strawberry.jpg" alt="PlaceHolder Img 2" />
+                        </picture>
+                        <figcaption class="orbit-caption">Fresa Coqueta</figcaption>
+                    </figure>
+                </li>
+                <li class="orbit-slide">
+                    <figure class="orbit-figure text-center">
+                        <picture>
+                            <source srcset="https://cdn.discordapp.com/attachments/807823691974180895/807829534358896650/l-watermelon.jpg" media="(min-width:1200px)" />
+                            <source srcset="https://cdn.discordapp.com/attachments/807823691974180895/807829630286954516/m-watermelon.jpg" media="(min-width:700px)" />
+                            <img src="https://cdn.discordapp.com/attachments/807823691974180895/807829705751003176/s-watermelon.jpg" alt="PlaceHolder Img 3" />
+                        </picture>
+                        <figcaption class="orbit-caption">Sandia Fresca</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <nav class="orbit-bullets">
+                <button class="is-active" data-slide="0">
+                  <span class="show-for-sr">Primer Slide</span>
+                </button>
+                <button data-slide="1">
+                  <span class="show-for-sr">Segundo Slide</span>
+                </button>
+                <button data-slide="2">
+                  <span class="show-for-sr">Tercer Slide</span>
+                </button>
+            </nav>
+        </section>
 
-      <div class="grid-x grid-padding-x">
-        <div class="large-8 medium-8 cell">
-          <h5>Here&rsquo;s your basic grid:</h5>
-          <!-- Grid Example -->
+        <section class="grid-container text-center margin-top-3">
+            <h2>Nuevos Productos</h2>
+            <hr/>
+            <div class="grid-x grid-margin-x small-up-2 large-up-4">
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807845525142372382/cake_350px.jpg" />
+                        <div class="card-divider">Empastelado</div>
+                        <div class="card-section">
 
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <div class="primary callout">
-                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-          </div>
-
-          <hr />
-
-          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-          <form>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-12.cell" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Input Label</label>
-                  <div class="input-group">
-                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
-                    <span class="input-group-label">.com</span>
-                  </div>
+                            <div class="text-right margin-bottom-1"><strong>L120.00</strong></div>
+                            <div><a href class="button expanded">Comprar</a></div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Select Box</label>
-                <select>
-                  <option value="husker">Husker</option>
-                  <option value="starbuck">Starbuck</option>
-                  <option value="hotdog">Hot Dog</option>
-                  <option value="apollo">Apollo</option>
-                </select>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-6 medium-6 cell">
-                <label>Choose Your Favorite</label>
-                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-              </div>
-              <div class="large-6 medium-6 cell">
-                <label>Check these out</label>
-                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Textarea Label</label>
-                <textarea placeholder="small-12.cell"></textarea>
-              </div>
-            </div>
-          </form>
-        </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807845530910457886/chocolate_350px.jpg" />
+                        <div class="card-divider">Chocoloco</div>
+                        <div class="card-section">
 
-        <div class="large-4 medium-4 cell">
-          <h5>Try one of these buttons:</h5>
-          <p><a href="#" class="button">Simple Button</a><br/>
-          <a href="#" class="success button">Success Btn</a><br/>
-          <a href="#" class="alert button">Alert Btn</a><br/>
-          <a href="#" class="secondary button">Secondary Btn</a></p>
-          <div class="callout">
-            <h5>So many components, girl!</h5>
-            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-            <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
-          </div>
-        </div>
-      </div>
-    </div>
+                            <div class="text-right margin-bottom-1"><strong>L60.00</strong></div>
+                            <div><a href class="button expanded">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807845532969861140/apple_350px.jpg" />
+                        <div class="card-divider">Manzana saludable</div>
+                        <div class="card-section">
 
+                            <div class="text-right margin-bottom-1"><strong>L45.00</strong></div>
+                            <div><a href class="button expanded">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807845535028477972/banana_350px.jpg" />
+                        <div class="card-divider">Banana fiestera</div>
+                        <div class="card-section">
+
+                            <div class="text-right margin-bottom-1"><strong>L45.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="grid-container-fluid big-screen text-center margin-top-3 padding-1">
+            <h2>Productos más Vendidos</h2>
+            <hr/>
+            <section class="align-center grid-x grid-margin-x small-up-2 medium-up-4 large-up-6">
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807846012017180722/cocoa_helada_200px.jpg" />
+                        <div class="card-divider">Chocolate frio</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L45.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807846017659043860/pinapple_200px.jpg" />
+                        <div class="card-divider">Piña playera</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L45.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807846019773366292/strawberry_200px.jpg" />
+                        <div class="card-divider">Fresa coqueta</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L45.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807846024739160094/Caramelo_de_leche_200px.jpg" />
+                        <div class="card-divider">Dulce caramelo</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L45.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell medium-offset-3 large-offset-0">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://cdn.discordapp.com/attachments/807823691974180895/807846027524177920/cacahuate_200px.jpg" />
+                        <div class="card-divider">Cacahuate Serio</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L45.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="grid-container text-center margin-top-3">
+            <h2>Productos de Temporada</h2>
+            <hr/>
+            <section class="grid-x small-up-1 grid-margin-x medium-up-2 large-up-2">
+                <div class="cell media-object">
+                    <div class="media-object-section">
+                        <img alt="temporada" src="https://cdn.discordapp.com/attachments/807823691974180895/807844710747078666/kiwi_100px.jpg" class="thumbnail" />
+                    </div>
+                    <div class="media-object-section">
+                        <strong>Kiwi tropical</strong><br/>
+                        <p>Batido de kiwi energizante</p>
+                    </div>
+                </div>
+                <div class="cell media-object">
+                    <div class="media-object-section">
+                        <img alt="temporada" src="https://cdn.discordapp.com/attachments/807823691974180895/807844707887218708/coconut_100px.jpg" class="thumbnail" />
+                    </div>
+                    <div class="media-object-section">
+                        <strong>Coco recatado</strong><br/>
+                        <p>Batido a base de leche de coco, con agua de coco</p>
+                    </div>
+                </div>
+                <div class="cell media-object">
+                    <div class="media-object-section">
+                        <img alt="temporada" src="https://cdn.discordapp.com/attachments/807823691974180895/807844705265909780/datil_100px.jpg" class="thumbnail" />
+                    </div>
+                    <div class="media-object-section">
+                        <strong>Datil Exotico</strong><br/>
+                        <p>Batido de datil con extracto de fibra</p>
+                    </div>
+                </div>
+                <div class="cell media-object">
+                    <div class="media-object-section">
+                        <img alt="temporada" src="https://cdn.discordapp.com/attachments/807823691974180895/807844702912380959/papya_100px.jpg" class="thumbnail" />
+                    </div>
+                    <div class="media-object-section">
+                        <strong>Papaya segura</strong><br/>
+                        <p>Batido de papaya con chia y mazanilla</p>
+                    </div>
+                </div>
+                <div class="cell media-object">
+                    <div class="media-object-section">
+                        <img alt="temporada" src="https://cdn.discordapp.com/attachments/807823691974180895/807844700316762112/nueces_100px.jpg" class="thumbnail" />
+                    </div>
+                    <div class="media-object-section">
+                        <strong>Nueces expertas</strong><br/>
+                        <p>Batido de nueces surtidas con vainilla</p>
+                    </div>
+                </div>
+                <div class="cell media-object">
+                    <div class="media-object-section">
+                        <img alt="temporada" src="https://cdn.discordapp.com/attachments/807823691974180895/807844691193757716/menta_100px.jpg" class="thumbnail" />
+                    </div>
+                    <div class="media-object-section">
+                        <strong>Menta formal</strong><br/>
+                        <p>Batido de menta con leche de almendra</p>
+                    </div>
+                </div>                
+            </section>
+        </section>
+
+    </main>
+    <footer>
+      <section class="top-bar-title">
+
+      </section>
+    </footer>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
     <script src="js/app.js"></script>
-  </body>
+</body>
+
 </html>
