@@ -69,13 +69,19 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: #17d6c6,
+  secondary: #2619da,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
 );
 $light-gray: #e6e6e6;
+
+//custom colors
+$light-blue: rgb(91, 150, 238);
+$cherry: rgb(241, 70, 127);
+$car-devider-color: rgb(131, 117, 184);
+
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
@@ -302,8 +308,8 @@ $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
 $button-radius: $global-radius;
-$button-border: 1px solid transparent;
-$button-hollow-border-width: 1px;
+$button-border: 5px;
+$button-hollow-border-width: 5px;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
@@ -346,9 +352,9 @@ $callout-link-tint: 30%;
 // 14. Card
 // --------
 
-$card-background: $white;
+$card-background: $cherry;
 $card-font-color: $body-font-color;
-$card-divider-background: $light-gray;
+$card-divider-background: $car-devider-color;
 $card-border: 1px solid $light-gray;
 $card-shadow: none;
 $card-border-radius: $global-radius;
@@ -872,7 +878,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-background: $light-blue;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
